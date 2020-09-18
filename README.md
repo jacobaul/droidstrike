@@ -9,7 +9,7 @@ The original game was written in C with the SDL library. This port is built on [
 
 ## Build
 
-1. Initialize libsdl-android submodule in the commandergenius folder. (e.g. clone with `git clone --recurse-submodules`)
+1. Initialize libsdl-android submodule in the libsdl-android folder. (e.g. clone with `git clone --recurse-submodules`)
 2. Ensure android-sdk and android-ndk are in your PATH. (Installing Android Studio will not do this)
 3. Run build.sh from top-level directory.
 

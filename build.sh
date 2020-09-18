@@ -3,7 +3,7 @@
 rm -rf ./build
 mkdir ./build
 
-cp -r ./commandergenius/* ./build/
+cp -r ./libsdl-android/* ./build/
 cp -r ./airstrike ./build/project/jni/application/droidstrike
 
 ln -s droidstrike ./build/project/jni/application/src
