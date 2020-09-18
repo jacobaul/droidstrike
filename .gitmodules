@@ -1,0 +1,3 @@
+[submodule "commandergenius"]
+	path = commandergenius
+	url = https://github.com/pelya/commandergenius
