@@ -9,6 +9,7 @@ cp -r ./airstrike ./build/project/jni/application/droidstrike
 ln -s droidstrike ./build/project/jni/application/src
 
 cp AndroidAppSettings.cfg ./build/project/jni/application/src/
+cp AndroidBuild.sh ./build/project/jni/application/src/
 
 cp icon.png ./build/project/jni/application/src/icon.png
 
