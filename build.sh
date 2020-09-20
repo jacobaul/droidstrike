@@ -10,6 +10,7 @@ ln -s droidstrike ./build/project/jni/application/src
 
 cp AndroidAppSettings.cfg ./build/project/jni/application/src/
 cp AndroidBuild.sh ./build/project/jni/application/src/
+cp airstrike-makefile ./build/project/jni/application/src/src/Makefile
 
 cp icon.png ./build/project/jni/application/src/icon.png
 
