@@ -17,7 +17,7 @@ The original game was written in C with the SDL library. This port is built on [
 
 The graphics assets for the original game were rendered using the free POV-Ray raytracer. Using an old version of POV-Ray from 2002, version 3.5, allows all the assets to be recreated (or modified) easily from the .pov files in the airstrike folder. This is interesting as it provides an easy way of generating assets at increased resolution. Creating a single render is a simple as running `povray example.pov`. Included with the .pov files is a Makefile which renders all the necessary animation frames into png images. Like the game code, these assets were released under GPLv2.
 
-POV-Ray still provides old versions for download which still work fine (at least on linux). Version 3.5 is available [Here](http://www.povray.org/ftp/pub/povray/Old-Versions/Official-3.5/http://www.povray.org/ftp/pub/povray/Old-Versions/Official-3.5/)
+POV-Ray still provides old versions for download which still work fine (at least on linux). Version 3.5 is available [Here](http://www.povray.org/ftp/pub/povray/Old-Versions/Official-3.5/)
 
 ## License
 
