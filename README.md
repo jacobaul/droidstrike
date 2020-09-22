@@ -13,6 +13,10 @@ The original game was written in C with the SDL library. This port is built on [
 2. Ensure android-sdk and android-ndk are in your PATH. (Installing Android Studio will not do this)
 3. Run build.sh from top-level directory.
 
+## Graphics Assets
+
+The graphics assets for the original game were rendered using the free POV-Ray raytracer. Using a old version POV-Ray, version 3.5, allows all the assets to be recreated (or modified) easily from the .pov files in the airstrike folder. Creating a single render is a simple as running `povray example.pov`. Included with the .pov files is a Makefile which renders all the necessary animation frames into png images. Like the game code, these assets were released under GPLv2.
+
 ## License
 
 ### libsdl-android
